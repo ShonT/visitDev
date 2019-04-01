@@ -1,0 +1,3 @@
+crontab -e
+Command : 
+0 * * * * cd Users/shonhittrehan/shonhitWork/visitDev && python mysqlTest.py > /tmp/Script_debugging.log 2>&1
